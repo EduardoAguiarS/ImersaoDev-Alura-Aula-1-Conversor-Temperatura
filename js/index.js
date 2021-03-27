@@ -28,9 +28,10 @@ function conversor(){
 
     //verifica a temperatura selecionada e retorna a conversão
     if (celsius == true) {
-        outConversao.textContent = "O valor de Celsius em Fahrenheit é °F: " + paraFah.toFixed(1);
-    } else {
+        
         outConversao.textContent = "O valor de Fahrenheit em Celsius é °C: " + paraCel.toFixed(1);
+    } else {
+        outConversao.textContent = "O valor de Celsius em Fahrenheit é °F: " + paraFah.toFixed(1);
     }
 }
 
