@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Temperatura</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+   
+    <main class="container">
+        <h1>Conversor de Temperatura</h1>
+        <img src="https://icon-library.net//images/temperature-icon-png/temperature-icon-png-12.jpg" /></a>
+        <form name="conversor">
+            <h3>Temperaturas <br>
+                <input type="radio" name="temperatura" id="rdCelsius"> Celsius
+                <input type="radio" name="temperatura" id="rdFahrenheit"> Fahrenheit
+            </h3>
+            <h3>Graus
+                <input type="text" name="graus" id="inGraus">
+            </h3>
+            <div class="button">
+                <input type="button" value="Converter" id="btnConverter">
+            </div>
+        </form>
+        <div class="output">
+            <h3 id="outConversao"></h3>
+        </div>
+    </main>
+    <script src="js/index.js"></script>
+</body>
+</html>

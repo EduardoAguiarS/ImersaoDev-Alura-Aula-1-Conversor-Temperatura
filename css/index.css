@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: linear-gradient(45deg, rgb(223, 143, 52), rgb(255, 181, 44));
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+img {
+    margin-left: 3em;
+    height: 200px;
+    width: 200px;
+}
+
+main.container{
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(5px);
+    color: black;
+    max-width: 400px;
+    min-height: 87vh;
+    max-height: 90vh;
+    padding: 4rem;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+ }
+
+main h1 {
+    font-weight: 600;
+    margin-bottom: 1.3rem;
+    position: relative;
+    text-align: center;
+}
+
+
+main h3 {
+    font-weight: 600;
+    margin-bottom: 1.3rem;
+    position: relative;
+    text-align: center;
+}
+
+main.container input[type = "text"] {
+    outline: none;
+    text-align: center;
+    padding-top: 5px;
+    border-radius: 8px;
+    box-shadow:inset 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+main.container input[type = "radio"] {
+    margin: 10px;
+    cursor: pointer;
+    background-color: white;
+}
+
+.button input {
+    background-color: rgb(26, 112, 224);
+    border-radius: 8px;
+    color: white;
+    margin: auto;
+    display: flex;
+    margin-top: 1rem;
+    padding: 0.3rem;
+    cursor: pointer;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    outline: none;
+    margin-bottom: 1rem;
+    transition: 0.3s ease;
+}
+
+
+.button input:hover {
+    background-color: yellow;
+    color: black;
+}
